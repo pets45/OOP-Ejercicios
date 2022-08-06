@@ -9,7 +9,7 @@ class Perro:
 	def ladrar(self, ladrido):
 		print(f'El perro ladra {ladrido}')
 
-	def __stl__(self):
+	def __str__(self):
 		return f'Perro raza {self.raza}, size: {self.size}, pelu: {self.pelu}'
 
 ladrido = 'uau! uau!'
