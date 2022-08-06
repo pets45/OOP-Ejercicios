@@ -9,7 +9,7 @@ class Trabajador:
 		self.puesto = puesto
 
 	def trabajar(self, tareas):
-		print('El trabajador hace sus tareas que son', tareas)
+		print(f'El trabajador hace sus tareas que son {tareas}')
 
 buen_worker = Trabajador('Fulanito', 4513, 'Administrativo')
 print(buen_worker)
