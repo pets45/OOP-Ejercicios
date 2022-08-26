@@ -5,19 +5,17 @@
 # 4. Sacar una carta del buzon
 # 5. Leer buzon completo
 
-from clase_OOP2mails import Letter, Envelope, Inbox
-
-
+from clase_oop2_mails import Letter, Envelope, Inbox
 
 carta = Letter('recibo_luz')
 print(carta)
 
-carta_sobre = Envelope(carta)
+carta_sobre = Envelope()
 carta_sobre.open()
 carta_sobre.append(carta)
-print(carta_sobre)
+print(Letter)
 
-sobre_buzon = Inbox(carta_sobre)
+sobre_buzon = Inbox()
 sobre_buzon.open()
 sobre_buzon.add(carta_sobre)
 print(sobre_buzon)
